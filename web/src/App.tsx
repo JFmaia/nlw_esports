@@ -1,5 +1,11 @@
-function App() {
-  return <h1>Hello NLW</h1>
+import  './styles/main.css'
+
+function App(){
+  return(
+    <div>
+
+    </div>
+  )
 }
 
 export default App
