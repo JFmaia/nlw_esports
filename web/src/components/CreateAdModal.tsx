@@ -21,19 +21,37 @@ export function CreateAdModal(){
     const [useVoiceChannel, setUseVoiceChannel] = useState(false);
 
     useEffect(() =>{
-        axios('http://localhost:3333/games')
-            .then(response => {
+        axios('http://localhost:3333/games').then(response => {
                 setGames(response.data)
-            })
-        },[])
+        })
+    },[])
 
-    function handleCreateAd(event: FormEvent){
+    async function handleCreateAd(event: FormEvent){
         event.preventDefault();
 
         const formData = new FormData(event.target as HTMLFormElement)
         const data = Object.fromEntries(formData);
 
-        console.log(data);
+        if(!data.name){
+            return;
+        }
+
+        try {
+            axios.post(`http://localhost:3333/games/${data.game}/ads`, {
+                name: data.name,
+                yearsPlaying:Number(data.yearsPlaying),
+                discord: data.discord,
+                weekDays: weekDays.map(Number),
+                hourStart: data.hourStart,
+                hourEnd: data.hourEnd,
+                userVoiceChannel: useVoiceChannel,
+            })
+
+            alert('Aúncio criado com sucesso!')
+        } catch (error) {
+            console.log(error)
+            alert('Erro ao criar o anúcio!')
+        }
     }
 
     return(
