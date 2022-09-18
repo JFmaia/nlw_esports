@@ -18,5 +18,5 @@ de forma que outra pessoa se encaixe bem no seu tempo de jogo, e não jogue sozi
 
 ## Imagens do Projeto
 
-![primeira_tela_web]()
+![primeira_tela_web](https://github.com/JFmaia/nlw_esports/blob/main/pub/Telahome.png)
 
