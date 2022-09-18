@@ -15,6 +15,7 @@ import { styles } from './styles';
   yearsPlaying: number;
 }
 
+
 interface Props {
   data:DuoCardProps;
   onConnect: () => void;
