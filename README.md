@@ -16,7 +16,7 @@ de forma que outra pessoa se encaixe bem no seu tempo de jogo, e não jogue sozi
 - Node.js
 - SQLite
 
-## Imagens do Projeto
-
+## Imagens do Projeto Web
 ![primeira_tela_web](https://github.com/JFmaia/nlw_esports/blob/main/pub/Telahome.png)
+![primeira_tela_web](https://github.com/JFmaia/nlw_esports/blob/main/pub/tela%20de%20cadastro.png)
 
