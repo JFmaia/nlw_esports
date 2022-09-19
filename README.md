@@ -21,6 +21,6 @@ de forma que outra pessoa se encaixe bem no seu tempo de jogo, e não jogue sozi
 ![segunda_tela_web](https://github.com/JFmaia/nlw_esports/blob/main/pub/tela%20de%20cadastro.png)
 
 ## Imagens do Projeto Mobile
-![primeira_tela_web](https://github.com/JFmaia/nlw_esports/blob/main/pub/tela1.jpg)
-![segunda_tela_web](https://github.com/JFmaia/nlw_esports/blob/main/pub/tela3.jpg)
-![terceira_tela_web](https://github.com/JFmaia/nlw_esports/blob/main/pub/tela2.jpg)
+![primeira_tela_web](https://github.com/JFmaia/nlw_esports/blob/main/pub/tela1.svg)
+![segunda_tela_web](https://github.com/JFmaia/nlw_esports/blob/main/pub/tela3.svg)
+![terceira_tela_web](https://github.com/JFmaia/nlw_esports/blob/main/pub/tela2.svg)
